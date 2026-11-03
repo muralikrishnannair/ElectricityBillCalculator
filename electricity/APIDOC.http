@@ -1,5 +1,5 @@
 ###
-# CALCULATE ELECTRICITY BILL
+# Calculate electricity Bill
 ###
 
 POST http://127.0.0.1:8000/calculate-bill/
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 
 ###
-# CALCULATE UNITS
+# Calculate Units
 ###
 
 POST http://127.0.0.1:8000/calculate-units/
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 
 ###
-# BILL DETAILS
+# Bill Details
 ###
 
 POST http://127.0.0.1:8000/bill-details/
