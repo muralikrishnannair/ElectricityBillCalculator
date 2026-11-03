@@ -1,0 +1,37 @@
+###
+# CALCULATE ELECTRICITY BILL
+###
+
+POST http://127.0.0.1:8000/calculate-bill/
+Content-Type: application/json
+
+{
+    "units": 250
+}
+
+
+###
+# CALCULATE UNITS
+###
+
+POST http://127.0.0.1:8000/calculate-units/
+Content-Type: application/json
+
+{
+    "previous_reading": 1250,
+    "current_reading": 1500
+}
+
+
+###
+# BILL DETAILS
+###
+
+POST http://127.0.0.1:8000/bill-details/
+Content-Type: application/json
+
+{
+    "consumer_name": "Muralikrishnan",
+    "consumer_number": "ELC1001",
+    "units": 250
+}
